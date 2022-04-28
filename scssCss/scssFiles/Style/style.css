@@ -1,0 +1,1027 @@
+/* 
+
+*****************
+TABLE OF CONTENTS
+*****************
+
+- Fonts
+- Mixins
+- Mixins, Larger Screens
+- Variables
+- Body
+ - Included Mixins
+ - Main Container
+  - Imports
+- Media Queries
+
+*/
+@font-face {
+  font-family: "latoLight";
+  src: url("../../../Fonts/Lato/latoLight.ttf");
+}
+
+@font-face {
+  font-family: "latoRegular";
+  src: url("../../../Fonts/Lato/latoRegular.ttf");
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+h2 {
+  color: #4d4d4d;
+  font-family: latoRegular;
+  font-size: 36px;
+  margin: 77px 0 0 0;
+}
+
+h5 {
+  color: #4d4d4d;
+  display: inline-block;
+  font-family: latoRegular;
+  font-size: 20px;
+}
+
+h6 {
+  color: #4d4d4d;
+  font-family: latoLight;
+  font-size: 16px;
+}
+
+.mainContainer {
+  /*
+TABLE OF CONTENTS
+*****************
+*/
+  /*
+TABLE OF CONTENTS
+*****************
+*/
+}
+
+.mainContainer footer .footerContainer .bottom {
+  margin: 64px 0 0 0;
+}
+
+.mainContainer footer .footerContainer h2 {
+  padding: 66px 0 66px 0;
+  margin: 0;
+  text-align: center;
+}
+
+.mainContainer footer .footerContainer .slider .block {
+  padding: 0 1.7% 0 1.7%;
+}
+
+.mainContainer footer .footerContainer .slider .block h5 {
+  font-size: 21px;
+  margin: 21px 0 0 0;
+}
+
+.mainContainer footer .footerContainer .slider .block .handsCreme .hands {
+  font-family: latoLight;
+  margin: 7px 0 0 0;
+}
+
+.mainContainer footer .footerContainer .slider .block .price {
+  margin: 40px 0 0 0;
+  padding: 0;
+}
+
+.mainContainer footer .footerContainer .slider .block .price h5 {
+  font-size: 23px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 1400px) {
+  .mainContainer footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .mainContainer footer .footerContainer {
+    width: 91%;
+  }
+  .mainContainer footer .footerContainer .slider .block {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1921px) and (max-width: 2400px) {
+  .mainContainer footer .footerContainer .bottom {
+    margin: 80px 0 0 0;
+  }
+  .mainContainer footer .footerContainer h2 {
+    padding: 82px 0 82px 0;
+  }
+  .mainContainer footer .footerContainer .slider .block h5 {
+    font-size: 26px;
+    margin: 26px 0 0 0;
+  }
+  .mainContainer footer .footerContainer .slider .block .handsCreme .hands {
+    margin: 8.7px 0 0 0;
+  }
+  .mainContainer footer .footerContainer .slider .block .price {
+    margin: 50px 0 0 0;
+  }
+  .mainContainer footer .footerContainer .slider .block .price h5 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 2401px) and (max-width: 3000px) {
+  .mainContainer footer .footerContainer .bottom {
+    margin: 100px 0 0 0;
+  }
+  .mainContainer footer .footerContainer h2 {
+    padding: 102px 0 102px 0;
+  }
+  .mainContainer footer .footerContainer .slider .block h5 {
+    font-size: 32px;
+    margin: 32px 0 0 0;
+  }
+  .mainContainer footer .footerContainer .slider .block .handsCreme .hands {
+    margin: 10.8px 0 0 0;
+  }
+  .mainContainer footer .footerContainer .slider .block .price {
+    margin: 62px 0 0 0;
+  }
+  .mainContainer footer .footerContainer .slider .block .price h5 {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 3001px) and (max-width: 3750px) {
+  .mainContainer footer .footerContainer .bottom {
+    margin: 125px 0 0 0;
+  }
+  .mainContainer footer .footerContainer h2 {
+    padding: 127px 0 127px 0;
+  }
+  .mainContainer footer .footerContainer .slider .block h5 {
+    font-size: 40px;
+    margin: 40px 0 0 0;
+  }
+  .mainContainer footer .footerContainer .slider .block .handsCreme .hands {
+    margin: 13.5px 0 0 0;
+  }
+  .mainContainer footer .footerContainer .slider .block .price {
+    margin: 77px 0 0 0;
+  }
+  .mainContainer footer .footerContainer .slider .block .price h5 {
+    font-size: 43px;
+  }
+}
+
+@media (min-width: 3751px) {
+  .mainContainer footer .footerContainer .bottom {
+    margin: 156px 0 0 0;
+  }
+  .mainContainer footer .footerContainer h2 {
+    padding: 158px 0 158px 0;
+  }
+  .mainContainer footer .footerContainer .slider .block h5 {
+    font-size: 50px;
+    margin: 50px 0 0 0;
+  }
+  .mainContainer footer .footerContainer .slider .block .handsCreme .hands {
+    margin: 16.8px 0 0 0;
+  }
+  .mainContainer footer .footerContainer .slider .block .price {
+    margin: 96px 0 0 0;
+  }
+  .mainContainer footer .footerContainer .slider .block .price h5 {
+    font-size: 53px;
+  }
+}
+
+.mainContainer header {
+  background: #f6f6f5;
+}
+
+.mainContainer header .leftColumn {
+  background: url("../../../Images/Header/largeImg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  width: 63%;
+}
+
+.mainContainer header .rightColumn {
+  width: 37%;
+}
+
+.mainContainer header .rightColumn .infoContainer {
+  margin: 77px 0 118px 11%;
+  width: 77%;
+}
+
+.mainContainer header .rightColumn .infoContainer .backArea a {
+  bottom: 5px;
+  float: left;
+  margin: 0 15px 0 0;
+  position: relative;
+}
+
+.mainContainer header .rightColumn .infoContainer .backArea a img {
+  margin: 0;
+}
+
+.mainContainer header .rightColumn .infoContainer .bottle {
+  margin: 4.7px 0 0 0;
+}
+
+.mainContainer header .rightColumn .infoContainer button {
+  background: #bfabab;
+  border: none;
+  margin: 67px 0 0 0;
+  padding: 15px 0 15px 0;
+  width: 100%;
+}
+
+.mainContainer header .rightColumn .infoContainer button h5 {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer header .rightColumn .infoContainer h6 {
+  color: #4d4d4d;
+}
+
+.mainContainer header .rightColumn .infoContainer .line {
+  background: #9f938b;
+  height: 1px;
+  width: 100%;
+}
+
+.mainContainer header .rightColumn .infoContainer .lineBottom {
+  margin: 62px 0 0 0;
+}
+
+.mainContainer header .rightColumn .infoContainer .lineTop {
+  margin: 33px 0 0 0;
+}
+
+.mainContainer header .rightColumn .infoContainer .loremIpsum {
+  letter-spacing: 1.25px;
+  margin: 36px 0 36px 0;
+}
+
+.mainContainer header .rightColumn .infoContainer .middleSizeText {
+  color: #4d4d4d;
+  display: block;
+  font-size: 18px;
+  width: 100%;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo {
+  margin: 44px 0 0 0;
+  width: 100%;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic {
+  margin: 47px 0 0 0;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .circle {
+  border: 2px solid #9f938b;
+  border-radius: 50%;
+  float: left;
+  height: 68px;
+  width: 68px;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .info {
+  height: 100%;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .info .organicText {
+  color: #948282;
+  display: inline-block;
+  font-family: latoRegular;
+  font-size: 18px;
+  margin: 0 0 0 12px;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight {
+  margin: 47px 0 0 0;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .circle {
+  border: 2px solid #9f938b;
+  border-radius: 50%;
+  float: left;
+  height: 68px;
+  margin: 0;
+  position: relative;
+  right: 12px;
+  width: 68px;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .info {
+  height: 100%;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .info .organicText {
+  color: #948282;
+  display: inline-block;
+  font-family: latoRegular;
+  font-size: 18px;
+  margin: 0;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .circle {
+  border: 2px solid #9f938b;
+  border-radius: 50%;
+  float: left;
+  height: 68px;
+  width: 68px;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .info {
+  height: 100%;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .info .organicText {
+  color: #948282;
+  display: inline-block;
+  font-family: latoRegular;
+  font-size: 18px;
+  margin: 0 0 0 12px;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .circle {
+  border: 2px solid #9f938b;
+  border-radius: 50%;
+  float: left;
+  height: 68px;
+  margin: 0;
+  position: relative;
+  right: 12px;
+  width: 68px;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .info {
+  height: 100%;
+}
+
+.mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .info .organicText {
+  color: #948282;
+  display: inline-block;
+  font-family: latoRegular;
+  font-size: 18px;
+  margin: 0;
+}
+
+@media (max-width: 325px) {
+  .mainContainer header .rightColumn .infoContainer .backArea a {
+    margin: 0 10px 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .backArea h6 {
+    font-size: 12px;
+  }
+  .mainContainer header .rightColumn .infoContainer h2 {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 400px) {
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic {
+    margin: 15px 0 0 0;
+    width: 100%;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .circle {
+    float: left;
+    height: 50px;
+    width: 50px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .info .organicText {
+    font-size: 13px;
+    margin: 0 0 0 12px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin: 15px 0 0 0;
+    width: 100%;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer {
+    width: 100%;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .circle {
+    float: left;
+    height: 50px;
+    right: 0;
+    width: 50px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .info .organicText {
+    font-size: 13px;
+    margin: 0 0 0 12px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic {
+    width: 100%;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .circle {
+    float: left;
+    height: 50px;
+    width: 50px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .info .organicText {
+    font-size: 13px;
+    margin: 0 0 0 12px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin: 15px;
+    width: 100%;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer {
+    width: 100%;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .circle {
+    float: left;
+    height: 50px;
+    right: 0;
+    width: 50px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .info .organicText {
+    display: initial;
+    font-size: 13px;
+    margin: 0 0 0 12px;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 550px) {
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .circle {
+    height: 50px;
+    width: 50px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .info .organicText {
+    font-size: 13px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .circle {
+    height: 50px;
+    width: 50px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .info .organicText {
+    font-size: 13px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .circle {
+    height: 50px;
+    width: 50px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .info .organicText {
+    font-size: 13px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .circle {
+    height: 50px;
+    width: 50px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .info .organicText {
+    font-size: 13px;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 750px) {
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .info .organicText {
+    font-size: 16px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .info .organicText {
+    font-size: 16px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .info .organicText {
+    font-size: 16px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .info .organicText {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 1400px) {
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .info .organicText {
+    font-size: 25px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .info .organicText {
+    font-size: 25px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .info .organicText {
+    font-size: 25px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .info .organicText {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .mainContainer header .leftColumn {
+    height: 50vh;
+    width: 100%;
+  }
+  .mainContainer header .rightColumn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+  }
+  .mainContainer header .rightColumn .infoContainer {
+    margin-left: 0;
+    width: 91%;
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1550px) {
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .info .organicText {
+    font-size: 16px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .info .organicText {
+    font-size: 16px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .info .organicText {
+    font-size: 16px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .info .organicText {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1921px) and (max-width: 2400px) {
+  .mainContainer header .rightColumn .infoContainer {
+    margin: 96px 0 148px 11%;
+  }
+  .mainContainer header .rightColumn .infoContainer .backArea a {
+    bottom: 6.2px;
+    margin: 0 18px 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .backArea a img {
+    height: auto;
+    width: 22px;
+  }
+  .mainContainer header .rightColumn .infoContainer .bottle {
+    margin: 5.8px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer button {
+    margin: 83px 0 0 0;
+    padding: 18px 0 18px 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .line {
+    height: 1px;
+  }
+  .mainContainer header .rightColumn .infoContainer .lineBottom {
+    margin: 77px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .lineTop {
+    margin: 41px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .loremIpsum {
+    letter-spacing: 1.56px;
+    margin: 45px 0 45px 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .middleSizeText {
+    font-size: 22px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo {
+    margin: 55px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic {
+    margin: 58px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .circle {
+    border: 2.5px solid #9f938b;
+    height: 85px;
+    width: 85px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .circle img {
+    height: auto;
+    width: 28px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .info .organicText {
+    font-size: 22px;
+    margin: 0 0 0 15px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight {
+    margin: 58px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .circle {
+    border: 2.5px solid #9f938b;
+    height: 85px;
+    right: 15px;
+    width: 85px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .circle img {
+    height: auto;
+    width: 28px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .info .organicText {
+    font-size: 22px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .circle {
+    border: 2.5px solid #9f938b;
+    height: 85px;
+    width: 85px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .circle img {
+    height: auto;
+    width: 28px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .info .organicText {
+    font-size: 22px;
+    margin: 0 0 0 15px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .circle {
+    border: 2.5px solid #9f938b;
+    height: 85px;
+    right: 15px;
+    width: 85px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .circle img {
+    height: auto;
+    width: 28px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .info .organicText {
+    font-size: 22px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 2401px) and (max-width: 3000px) {
+  .mainContainer header .rightColumn .infoContainer {
+    margin: 120px 0 185px 11%;
+  }
+  .mainContainer header .rightColumn .infoContainer .backArea a {
+    bottom: 7.7px;
+    margin: 0 22px 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .backArea a img {
+    height: auto;
+    width: 27px;
+  }
+  .mainContainer header .rightColumn .infoContainer .bottle {
+    margin: 7.2px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer button {
+    margin: 103px 0 0 0;
+    padding: 22px 0 22px 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .line {
+    height: 2px;
+  }
+  .mainContainer header .rightColumn .infoContainer .lineBottom {
+    margin: 96px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .lineTop {
+    margin: 51px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .loremIpsum {
+    letter-spacing: 1.95px;
+    margin: 56px 0 56px 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .middleSizeText {
+    font-size: 27px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo {
+    margin: 68px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic {
+    margin: 72px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .circle {
+    border: 3.1px solid #9f938b;
+    height: 106px;
+    width: 106px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .circle img {
+    height: auto;
+    width: 35px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .info .organicText {
+    font-size: 27px;
+    margin: 0 0 0 18px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight {
+    margin: 72px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .circle {
+    border: 3.1px solid #9f938b;
+    height: 106px;
+    right: 18px;
+    width: 106px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .circle img {
+    height: auto;
+    width: 35px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .info .organicText {
+    font-size: 27px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .circle {
+    border: 3.1px solid #9f938b;
+    height: 106px;
+    width: 106px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .circle img {
+    height: auto;
+    width: 35px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .info .organicText {
+    font-size: 27px;
+    margin: 0 0 0 18px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .circle {
+    border: 3.1px solid #9f938b;
+    height: 106px;
+    right: 18px;
+    width: 106px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .circle img {
+    height: auto;
+    width: 35px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .info .organicText {
+    font-size: 27px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 3001px) and (max-width: 3750px) {
+  .mainContainer header .rightColumn .infoContainer {
+    margin: 150px 0 231px 11%;
+  }
+  .mainContainer header .rightColumn .infoContainer .backArea a {
+    bottom: 9.6px;
+    margin: 0 27px 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .backArea a img {
+    height: auto;
+    width: 33px;
+  }
+  .mainContainer header .rightColumn .infoContainer .bottle {
+    margin: 9px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer button {
+    margin: 128px 0 0 0;
+    padding: 27px 0 27px 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .line {
+    height: 2px;
+  }
+  .mainContainer header .rightColumn .infoContainer .lineBottom {
+    margin: 120px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .lineTop {
+    margin: 63px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .loremIpsum {
+    letter-spacing: 2.43px;
+    margin: 70px 0 70px 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .middleSizeText {
+    font-size: 33px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo {
+    margin: 85px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic {
+    margin: 90px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .circle {
+    border: 3.8px solid #9f938b;
+    height: 132px;
+    width: 132px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .circle img {
+    height: auto;
+    width: 43px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .info .organicText {
+    font-size: 33px;
+    margin: 0 0 0 22px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight {
+    margin: 90px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .circle {
+    border: 3.8px solid #9f938b;
+    height: 132px;
+    right: 22px;
+    width: 132px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .circle img {
+    height: auto;
+    width: 43px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .info .organicText {
+    font-size: 33px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .circle {
+    border: 3.8px solid #9f938b;
+    height: 132px;
+    width: 132px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .circle img {
+    height: auto;
+    width: 43px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .info .organicText {
+    font-size: 33px;
+    margin: 0 0 0 22px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .circle {
+    border: 3.8px solid #9f938b;
+    height: 132px;
+    right: 22px;
+    width: 132px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .circle img {
+    height: auto;
+    width: 43px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .info .organicText {
+    font-size: 33px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 3751px) {
+  .mainContainer header .rightColumn .infoContainer {
+    margin: 187px 0 289px 11%;
+  }
+  .mainContainer header .rightColumn .infoContainer .backArea a {
+    bottom: 12px;
+    margin: 0 33px 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .backArea a img {
+    height: auto;
+    width: 41px;
+  }
+  .mainContainer header .rightColumn .infoContainer .bottle {
+    margin: 11.2px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer button {
+    margin: 160px 0 0 0;
+    padding: 33px 0 33px 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .line {
+    height: 2px;
+  }
+  .mainContainer header .rightColumn .infoContainer .lineBottom {
+    margin: 150px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .lineTop {
+    margin: 78px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .loremIpsum {
+    letter-spacing: 3.04px;
+    margin: 87px 0 87px 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .middleSizeText {
+    font-size: 41px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo {
+    margin: 106px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic {
+    margin: 112px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .circle {
+    border: 4.7px solid #9f938b;
+    height: 165px;
+    width: 165px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .circle img {
+    height: auto;
+    width: 53px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganic .info .organicText {
+    font-size: 41px;
+    margin: 0 0 0 27px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight {
+    margin: 112px 0 0 0;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .circle {
+    border: 4.7px solid #9f938b;
+    height: 165px;
+    right: 27px;
+    width: 165px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .circle img {
+    height: auto;
+    width: 53px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .bottomOrganicRight .organicContainer .info .organicText {
+    font-size: 41px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .circle {
+    border: 4.7px solid #9f938b;
+    height: 165px;
+    width: 165px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .circle img {
+    height: auto;
+    width: 53px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganic .info .organicText {
+    font-size: 41px;
+    margin: 0 0 0 27px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .circle {
+    border: 4.7px solid #9f938b;
+    height: 165px;
+    right: 27px;
+    width: 165px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .circle img {
+    height: auto;
+    width: 53px;
+  }
+  .mainContainer header .rightColumn .infoContainer .organicInfo .topOrganicRight .organicContainer .info .organicText {
+    font-size: 41px;
+    margin: 0;
+  }
+}
+
+@media (min-width: 1921px) and (max-width: 2400px) {
+  body a {
+    font-size: 20px;
+  }
+  body h2 {
+    font-size: 45px;
+    margin: 96px 0 0 0;
+  }
+  body h5 {
+    font-size: 25px;
+  }
+  body h6 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 2401px) and (max-width: 3000px) {
+  body a {
+    font-size: 25px;
+  }
+  body h2 {
+    font-size: 56px;
+    margin: 120px 0 0 0;
+  }
+  body h5 {
+    font-size: 31px;
+  }
+  body h6 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 3001px) and (max-width: 3750px) {
+  body a {
+    font-size: 31px;
+  }
+  body h2 {
+    font-size: 70px;
+    margin: 150px 0 0 0;
+  }
+  body h5 {
+    font-size: 38px;
+  }
+  body h6 {
+    font-size: 31px;
+  }
+}
+
+@media (min-width: 3751px) {
+  body a {
+    font-size: 38px;
+  }
+  body h2 {
+    font-size: 87px;
+    margin: 187px 0 0 0;
+  }
+  body h5 {
+    font-size: 47px;
+  }
+  body h6 {
+    font-size: 38px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

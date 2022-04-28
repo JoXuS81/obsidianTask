@@ -1,0 +1,294 @@
+/* 
+
+*****************
+TABLE OF CONTENTS
+*****************
+
+- Fonts
+- Mixins
+- Mixins, Larger Screens
+- Variables
+- Body
+ - Included Mixins
+ - Main Container
+  - Imports
+- Media Queries
+
+*/
+
+
+// FONTS
+// Lato Light
+@font-face 
+{
+    font-family:"latoLight";
+    src:url("../../../Fonts/Lato/latoLight.ttf");
+}
+// Lato Regular
+@font-face 
+{
+    font-family:"latoRegular";
+    src:url("../../../Fonts/Lato/latoRegular.ttf");
+}
+
+
+// MIXINS (8 Mixins)
+@mixin a
+{
+    font-size:16px;
+    text-decoration:none;
+}
+@mixin h2
+{
+    color:$textColorOne;
+    font-family:latoRegular;
+    font-size:36px;
+    margin:77px 0 0 0;
+}
+@mixin h5
+{
+    color:$textColorOne;
+    display:inline-block;
+    font-family:latoRegular;
+    font-size:20px;
+}
+@mixin h6
+{
+    color:$textColorOne;
+    font-family:latoLight;
+    font-size:16px;
+}
+@mixin sectionPadding 
+{
+    padding:66px 0 66px 0;
+}
+
+
+// MIXINS (FOR RESOLUTION 1921 - 2400px)
+@mixin a_2400
+{
+    font-size:20px;
+}
+@mixin h2_2400
+{
+    font-size:45px;
+    margin:96px 0 0 0;
+}
+@mixin h5_2400
+{
+    font-size:25px;
+}
+@mixin h6_2400
+{
+    font-size:20px;
+}
+@mixin sectionPadding_2400
+{
+    padding:82px 0 82px 0;
+}
+
+
+// MIXINS (FOR RESOLUTION 2401 - 3000px)
+@mixin a_3000
+{
+    font-size:25px;
+}
+@mixin h2_3000
+{
+    font-size:56px;
+    margin:120px 0 0 0;
+}
+@mixin h5_3000
+{
+    font-size:31px;
+}
+@mixin h6_3000
+{
+    font-size:25px;
+}
+@mixin sectionPadding_3000
+{
+    padding:102px 0 102px 0;
+}
+
+
+// MIXINS (FOR RESOLUTION 3001 - 3750px)
+@mixin a_3750
+{
+    font-size:31px;
+}
+@mixin h2_3750
+{
+    font-size:70px;
+    margin:150px 0 0 0;
+}
+@mixin h5_3750
+{
+    font-size:38px;
+}
+@mixin h6_3750
+{
+    font-size:31px;
+}
+@mixin sectionPadding_3750
+{
+    padding:127px 0 127px 0;
+}
+
+
+// MIXINS (FOR RESOLUTION 3751 -> ...)
+@mixin a_large
+{
+    font-size:38px;
+}
+@mixin h2_large
+{
+    font-size:87px;
+    margin:187px 0 0 0;
+}
+@mixin h5_large
+{
+    font-size:47px;
+}
+@mixin h6_large
+{
+    font-size:38px;
+}
+@mixin sectionPadding_large
+{
+    padding:158px 0 158px 0;
+}
+
+
+// VARIABLES
+$buttonColor:#bfabab;
+$headerBackground:#f6f6f5;
+$linesButtonCircles:#9f938b;
+$organicText:#948282;
+$textColorOne:#4d4d4d;
+
+
+// BODY
+
+
+    // INCLUDED MIXINS
+    a
+    {
+        @include a;
+    }
+    h2
+    {
+        @include h2;
+    }
+    h5
+    {
+        @include h5;
+    }
+    h6
+    {
+        @include h6;
+    }
+
+
+    // MAIN CONTAINER
+    .mainContainer 
+    {
+        // IMPORTS
+        @import "../Content/section";
+    }
+
+
+@media (min-width:1921px) and (max-width:2400px) 
+{
+    body 
+    {
+        a
+        {
+            @include a_2400;
+        }
+        h2 
+        {
+            @include h2_2400;
+        }
+        h5 
+        {
+            @include h5_2400;
+        }
+        h6
+        {
+            @include h6_2400;
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px) 
+{
+    body 
+    {
+        a
+        {
+            @include a_3000;
+        }
+        h2 
+        {
+            @include h2_3000;
+        }
+        h5 
+        {
+            @include h5_3000;
+        }
+        h6
+        {
+            @include h6_3000;
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px) 
+{
+    body 
+    {
+        a
+        {
+            @include a_3750;
+        }
+        h2 
+        {
+            @include h2_3750;
+        }
+        h5 
+        {
+            @include h5_3750;
+        }
+        h6
+        {
+            @include h6_3750;
+        }
+    }
+}
+
+
+@media (min-width:3751px)
+{
+    body 
+    {
+        a
+        {
+            @include a_large;
+        }
+        h2 
+        {
+            @include h2_large;
+        }
+        h5 
+        {
+            @include h5_large;
+        }
+        h6
+        {
+            @include h6_large;
+        }
+    }
+}

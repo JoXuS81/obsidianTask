@@ -1,0 +1,248 @@
+footer 
+{
+    .footerContainer 
+    {   
+        .bottom 
+        {
+            margin:64px 0 0 0;
+        }
+        h2 
+        {
+            @include sectionPadding;
+            margin:0;
+            text-align:center;
+        }
+        .slider 
+        {
+            .block 
+            {
+                padding:0 1.7% 0 1.7%;
+                h5 
+                {
+                    font-size:21px;
+                    margin:21px 0 0 0;
+                }
+                .handsCreme 
+                {
+                    .hands 
+                    {
+                        font-family:latoLight;
+                        margin:7px 0 0 0;
+                    }
+                }
+                .price 
+                {
+                    margin:40px 0 0 0;
+                    padding:0;
+                    h5 
+                    {
+                        font-size:23px;
+                        margin:0;
+                        padding:0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:1400px)
+{
+    footer 
+    {
+        display:flex;
+        justify-content:center;
+        .footerContainer 
+        {
+            width:91%;
+            .slider 
+            {
+                .block 
+                {
+                    padding:0;
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1921px) and (max-width:2400px)
+{
+    footer 
+    {
+        .footerContainer 
+        {   
+            .bottom 
+            {
+                margin:80px 0 0 0;
+            }
+            h2 
+            {
+                @include sectionPadding_2400;
+            }
+            .slider 
+            {
+                .block 
+                {
+                    h5 
+                    {
+                        font-size:26px;
+                        margin:26px 0 0 0;
+                    }
+                    .handsCreme 
+                    {
+                        .hands 
+                        {
+                            margin:8.7px 0 0 0;
+                        }
+                    }
+                    .price 
+                    {
+                        margin:50px 0 0 0;
+                        h5 
+                        {
+                            font-size:28px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px)
+{
+    footer 
+    {
+        .footerContainer 
+        {   
+            .bottom 
+            {
+                margin:100px 0 0 0;
+            }
+            h2 
+            {
+                @include sectionPadding_3000;
+            }
+            .slider 
+            {
+                .block 
+                {
+                    h5 
+                    {
+                        font-size:32px;
+                        margin:32px 0 0 0;
+                    }
+                    .handsCreme 
+                    {
+                        .hands 
+                        {
+                            margin:10.8px 0 0 0;
+                        }
+                    }
+                    .price 
+                    {
+                        margin:62px 0 0 0;
+                        h5 
+                        {
+                            font-size:35px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px)
+{
+    footer 
+    {
+        .footerContainer 
+        {   
+            .bottom 
+            {
+                margin:125px 0 0 0;
+            }
+            h2 
+            {
+                @include sectionPadding_3750;
+            }
+            .slider 
+            {
+                .block 
+                {
+                    h5 
+                    {
+                        font-size:40px;
+                        margin:40px 0 0 0;
+                    }
+                    .handsCreme 
+                    {
+                        .hands 
+                        {
+                            margin:13.5px 0 0 0;
+                        }
+                    }
+                    .price 
+                    {
+                        margin:77px 0 0 0;
+                        h5 
+                        {
+                            font-size:43px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3751px) 
+{
+    footer 
+    {
+        .footerContainer 
+        {   
+            .bottom 
+            {
+                margin:156px 0 0 0;
+            }
+            h2 
+            {
+                @include sectionPadding_large;
+            }
+            .slider 
+            {
+                .block 
+                {
+                    h5 
+                    {
+                        font-size:50px;
+                        margin:50px 0 0 0;
+                    }
+                    .handsCreme 
+                    {
+                        .hands 
+                        {
+                            margin:16.8px 0 0 0;
+                        }
+                    }
+                    .price 
+                    {
+                        margin:96px 0 0 0;
+                        h5 
+                        {
+                            font-size:53px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1275 @@
+/*
+TABLE OF CONTENTS
+*****************
+*/
+
+
+header 
+{
+    background:$headerBackground;
+    .leftColumn 
+    {
+        background:url("../../../Images/Header/largeImg.png");
+        background-position:center;
+        background-repeat:no-repeat;
+        background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size:cover;
+        -webkit-background-size:cover;
+        width:63%;
+    }
+    .rightColumn 
+    {
+        width:37%;
+        .infoContainer 
+        {
+            margin:77px 0 118px 11%;
+            width:77%;
+            .backArea 
+            {
+                
+                a 
+                {
+                    bottom:5px;
+                    float:left;
+                    margin:0 15px 0 0;
+                    position:relative;
+                    img 
+                    {
+                        margin:0;
+                    }
+                }
+            }
+            .bottle 
+            {
+                margin:4.7px 0 0 0;
+            }
+            button 
+            {
+                background:$buttonColor;
+                border:none;
+                margin:67px 0 0 0;
+                padding:15px 0 15px 0;
+                width:100%;
+                h5 
+                {
+                    margin:0;
+                    padding:0;
+                }
+            }
+            h6 
+            {
+                color:$textColorOne;
+            }
+            .line
+            {
+                background:$linesButtonCircles;
+                height:1px;
+                width:100%;
+            }
+            .lineBottom 
+            {
+                margin:62px 0 0 0;
+            }
+            .lineTop 
+            {
+                margin:33px 0 0 0;
+            }
+            .loremIpsum 
+            {
+                letter-spacing:1.25px;
+                margin:36px 0 36px 0;
+            }
+            .middleSizeText 
+            {
+                color:$textColorOne;
+                display:block;
+                font-size:18px;
+                width:100%;
+            }
+            .organicInfo 
+            {
+                margin:44px 0 0 0;
+                width:100%;
+                .bottomOrganic 
+                {
+                    margin:47px 0 0 0;
+                    .circle 
+                    {
+                        border:2px solid $linesButtonCircles;
+                        border-radius:50%;
+                        float:left;
+                        height:68px;
+                        width:68px;
+                    }
+                    .info 
+                    {
+                        height:100%;
+                        .organicText 
+                        {
+                            color:$organicText;
+                            display:inline-block;
+                            font-family:latoRegular;
+                            font-size:18px;
+                            margin:0 0 0 12px;
+                        }
+                    }
+                }
+                .bottomOrganicRight 
+                {
+                    margin:47px 0 0 0;
+                    .organicContainer 
+                    {
+                        .circle 
+                        {
+                            border:2px solid $linesButtonCircles;
+                            border-radius:50%;
+                            float:left;
+                            height:68px;
+                            margin:0;
+                            position:relative;
+                            right:12px;
+                            width:68px;
+                        }
+                        .info 
+                        {
+                            height:100%;
+                            .organicText 
+                            {
+                                color:$organicText;
+                                display:inline-block;
+                                font-family:latoRegular;
+                                font-size:18px;
+                                margin:0;
+                            }
+                        }
+                    }
+                }
+                .topOrganic 
+                {
+                    .circle 
+                    {
+                        border:2px solid $linesButtonCircles;
+                        border-radius:50%;
+                        float:left;
+                        height:68px;
+                        width:68px;
+                    }
+                    .info 
+                    {
+                        height:100%;
+                        .organicText 
+                        {
+                            color:$organicText;
+                            display:inline-block;
+                            font-family:latoRegular;
+                            font-size:18px;
+                            margin:0 0 0 12px;
+                        }
+                    }
+                }
+                .topOrganicRight 
+                {
+                    .organicContainer 
+                    {
+                        .circle 
+                        {
+                            border:2px solid $linesButtonCircles;
+                            border-radius:50%;
+                            float:left;
+                            height:68px;
+                            margin:0;
+                            position:relative;
+                            right:12px;
+                            width:68px;
+                        }
+                        .info 
+                        {
+                            height:100%;
+                            .organicText 
+                            {
+                                color:$organicText;
+                                display:inline-block;
+                                font-family:latoRegular;
+                                font-size:18px;
+                                margin:0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:325px)
+{
+    header 
+    {
+        .rightColumn 
+        {
+            .infoContainer 
+            {
+                .backArea 
+                {
+                    a 
+                    {
+                        margin:0 10px 0 0;
+                    }
+                    h6 
+                    {
+                        font-size:12px;
+                    }
+                }
+                h2 
+                {
+                    font-size:27px;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:400px)
+{
+    header 
+    {
+        .rightColumn 
+        {
+            .infoContainer
+            {
+                .organicInfo
+                {
+                    .bottomOrganic 
+                    {
+                        margin:15px 0 0 0;
+                        width:100%;
+                        .circle 
+                        {
+                            float:left;
+                            height:50px;
+                            width:50px;
+                        }
+                        .info 
+                        {
+                            .organicText
+                            {
+                                font-size:13px;
+                                margin:0 0 0 12px;
+                            }
+                        }
+                    }
+                    .bottomOrganicRight
+                    {
+                        display:flex;
+                        justify-content:start;
+                        margin:15px 0 0 0;
+                        width:100%;
+                        .organicContainer 
+                        {
+                            width:100%;
+                            .circle 
+                            {
+                                float:left;
+                                height:50px;
+                                right:0;
+                                width:50px;
+                            }
+                            .info 
+                            {
+                                .organicText
+                                {
+                                    font-size:13px;
+                                    margin:0 0 0 12px;
+                                }
+                            }
+                        }
+                    }
+                    .topOrganic 
+                    {
+                        width:100%;
+                        .circle 
+                        {
+                            float:left;
+                            height:50px;
+                            width:50px;
+                        }
+                        .info 
+                        {
+                            .organicText
+                            {
+                                font-size:13px;
+                                margin:0 0 0 12px;
+                            }
+                        }
+                    }
+                    .topOrganicRight
+                    {
+                        display:flex;
+                        justify-content:start;
+                        margin:15px;
+                        width:100%;
+                        .organicContainer 
+                        {
+                            width:100%;
+                            .circle 
+                            {
+                                float:left;
+                                height:50px;
+                                right:0;
+                                width:50px;
+                            }
+                            .info 
+                            {
+                                .organicText
+                                {
+                                    display:initial;
+                                    font-size:13px;
+                                    margin:0 0 0 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:401px) and (max-width:550px)
+{
+    header 
+    {
+        .rightColumn 
+        {
+            .infoContainer
+            {
+                .organicInfo
+                {
+                    .bottomOrganic 
+                    {
+                        .circle 
+                        {
+                            height:50px;
+                            width:50px;
+                        }
+                        .info 
+                        {
+                            .organicText
+                            {
+                                font-size:13px;
+                            }
+                        }
+                    }
+                    .bottomOrganicRight
+                    {
+                        .organicContainer 
+                        {
+                            .circle 
+                            {
+                                height:50px;
+                                width:50px;
+                            }
+                            .info 
+                            {
+                                .organicText
+                                {
+                                    font-size:13px;
+                                }
+                            }
+                        }
+                    }
+                    .topOrganic 
+                    {
+                        .circle 
+                        {
+                            height:50px;
+                            width:50px;
+                        }
+                        .info 
+                        {
+                            .organicText
+                            {
+                                font-size:13px;
+                            }
+                        }
+                    }
+                    .topOrganicRight
+                    {
+                        .organicContainer 
+                        {
+                            .circle 
+                            {
+                                height:50px;
+                                width:50px;
+                            }
+                            .info 
+                            {
+                                .organicText
+                                {
+                                    font-size:13px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:551px) and (max-width:750px)
+{
+    header 
+    {
+        .rightColumn 
+        {
+            .infoContainer
+            {
+                .organicInfo
+                {
+                    .bottomOrganic 
+                    {
+                        .info 
+                        {
+                            .organicText
+                            {
+                                font-size:16px;
+                            }
+                        }
+                    }
+                    .bottomOrganicRight
+                    {
+                        .organicContainer 
+                        {
+                            .info 
+                            {
+                                .organicText
+                                {
+                                    font-size:16px;
+                                }
+                            }
+                        }
+                    }
+                    .topOrganic 
+                    {
+                        .info 
+                        {
+                            .organicText
+                            {
+                                font-size:16px;
+                            }
+                        }
+                    }
+                    .topOrganicRight
+                    {
+                        .organicContainer 
+                        {
+                            .info 
+                            {
+                                .organicText
+                                {
+                                    font-size:16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:751px) and (max-width:1400px)
+{
+    header 
+    {
+        .rightColumn 
+        {
+            .infoContainer
+            {
+                .organicInfo
+                {
+                    .bottomOrganic 
+                    {
+                        .info 
+                        {
+                            .organicText
+                            {
+                                font-size:25px;
+                            }
+                        }
+                    }
+                    .bottomOrganicRight
+                    {
+                        .organicContainer 
+                        {
+                            .info 
+                            {
+                                .organicText
+                                {
+                                    font-size:25px;
+                                }
+                            }
+                        }
+                    }
+                    .topOrganic
+                    {
+                        .info 
+                        {
+                            .organicText
+                            {
+                                font-size:25px;
+                            }
+                        }
+                    }
+                    .topOrganicRight
+                    {
+                        .organicContainer 
+                        {
+                            .info 
+                            {
+                                .organicText
+                                {
+                                    font-size:25px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:1400px)
+{
+    header 
+    {
+        .leftColumn 
+        {
+            height:50vh;
+            width:100%;
+        }
+        .rightColumn 
+        {
+            display:flex;
+            justify-content:center;
+            width:100%;
+            .infoContainer
+            {
+                margin-left:0;
+                width:91%;
+            }
+        }
+    }
+}
+
+
+@media (min-width:1401px) and (max-width:1550px)
+{
+    header 
+    {
+        .rightColumn 
+        {
+            .infoContainer
+            {
+                .organicInfo
+                {
+                    .bottomOrganic 
+                    {
+                        .info 
+                        {
+                            .organicText
+                            {
+                                font-size:16px;
+                            }
+                        }
+                    }
+                    .bottomOrganicRight
+                    {
+                        .organicContainer 
+                        {
+                            .info 
+                            {
+                                .organicText
+                                {
+                                    font-size:16px;
+                                }
+                            }
+                        }
+                    }
+                    .topOrganic
+                    {
+                        .info 
+                        {
+                            .organicText
+                            {
+                                font-size:16px;
+                            }
+                        }
+                    }
+                    .topOrganicRight
+                    {
+                        .organicContainer 
+                        {
+                            .info 
+                            {
+                                .organicText
+                                {
+                                    font-size:16px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:1921px) and (max-width:2400px)
+{
+    header 
+    {
+        .rightColumn 
+        {
+            .infoContainer 
+            {
+                margin:96px 0 148px 11%;
+                .backArea 
+                {
+                    
+                    a 
+                    {
+                        bottom:6.2px;
+                        margin:0 18px 0 0;
+                        img 
+                        {
+                            height:auto;
+                            width:22px;
+                        }
+                    }
+                }
+                .bottle 
+                {
+                    margin:5.8px 0 0 0;
+                }
+                button 
+                {
+                    margin:83px 0 0 0;
+                    padding:18px 0 18px 0;
+                }
+                .line
+                {
+                    height:1px;
+                }
+                .lineBottom 
+                {
+                    margin:77px 0 0 0;
+                }
+                .lineTop 
+                {
+                    margin:41px 0 0 0;
+                }
+                .loremIpsum 
+                {
+                    letter-spacing:1.56px;
+                    margin:45px 0 45px 0;
+                }
+                .middleSizeText 
+                {
+                    font-size:22px;
+                }
+                .organicInfo 
+                {
+                    margin:55px 0 0 0;
+                    .bottomOrganic 
+                    {
+                        margin:58px 0 0 0;
+                        .circle 
+                        {
+                            border:2.5px solid $linesButtonCircles;
+                            height:85px;
+                            width:85px;
+                            img 
+                            {
+                                height:auto;
+                                width:28px;
+                            }
+                        }
+                        .info 
+                        {
+                            .organicText 
+                            {
+                                font-size:22px;
+                                margin:0 0 0 15px;
+                            }
+                        }
+                    }
+                    .bottomOrganicRight 
+                    {
+                        margin:58px 0 0 0;
+                        .organicContainer 
+                        {
+                            .circle 
+                            {
+                                border:2.5px solid $linesButtonCircles;
+                                height:85px;
+                                right:15px;
+                                width:85px;
+                                img 
+                                {
+                                    height:auto;
+                                    width:28px;
+                                }
+                            }
+                            .info 
+                            {
+                                .organicText 
+                                {
+                                    font-size:22px;
+                                }
+                            }
+                        }
+                    }
+                    .topOrganic 
+                    {
+                        .circle 
+                        {
+                            border:2.5px solid $linesButtonCircles;
+                            height:85px;
+                            width:85px;
+                            img 
+                            {
+                                height:auto;
+                                width:28px;
+                            }
+                        }
+                        .info 
+                        {
+                            .organicText 
+                            {
+                                font-size:22px;
+                                margin:0 0 0 15px;
+                            }
+                        }
+                    }
+                    .topOrganicRight 
+                    {
+                        .organicContainer 
+                        {
+                            .circle 
+                            {
+                                border:2.5px solid $linesButtonCircles;
+                                height:85px;
+                                right:15px;
+                                width:85px;
+                                img 
+                                {
+                                    height:auto;
+                                    width:28px;
+                                }
+                            }
+                            .info 
+                            {
+                                .organicText 
+                                {
+                                    font-size:22px;
+                                    margin:0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:2401px) and (max-width:3000px)
+{
+    header 
+    {
+        .rightColumn 
+        {
+            .infoContainer 
+            {
+                margin:120px 0 185px 11%;
+                .backArea 
+                {
+                    
+                    a 
+                    {
+                        bottom:7.7px;
+                        margin:0 22px 0 0;
+                        img 
+                        {
+                            height:auto;
+                            width:27px;
+                        }
+                    }
+                }
+                .bottle 
+                {
+                    margin:7.2px 0 0 0;
+                }
+                button 
+                {
+                    margin:103px 0 0 0;
+                    padding:22px 0 22px 0;
+                }
+                .line
+                {
+                    height:2px;
+                }
+                .lineBottom 
+                {
+                    margin:96px 0 0 0;
+                }
+                .lineTop 
+                {
+                    margin:51px 0 0 0;
+                }
+                .loremIpsum 
+                {
+                    letter-spacing:1.95px;
+                    margin:56px 0 56px 0;
+                }
+                .middleSizeText 
+                {
+                    font-size:27px;
+                }
+                .organicInfo 
+                {
+                    margin:68px 0 0 0;
+                    .bottomOrganic 
+                    {
+                        margin:72px 0 0 0;
+                        .circle 
+                        {
+                            border:3.1px solid $linesButtonCircles;
+                            height:106px;
+                            width:106px;
+                            img 
+                            {
+                                height:auto;
+                                width:35px;
+                            }
+                        }
+                        .info 
+                        {
+                            .organicText 
+                            {
+                                font-size:27px;
+                                margin:0 0 0 18px;
+                            }
+                        }
+                    }
+                    .bottomOrganicRight 
+                    {
+                        margin:72px 0 0 0;
+                        .organicContainer 
+                        {
+                            .circle 
+                            {
+                                border:3.1px solid $linesButtonCircles;
+                                height:106px;
+                                right:18px;
+                                width:106px;
+                                img 
+                                {
+                                    height:auto;
+                                    width:35px;
+                                }
+                            }
+                            .info 
+                            {
+                                .organicText 
+                                {
+                                    font-size:27px;
+                                }
+                            }
+                        }
+                    }
+                    .topOrganic 
+                    {
+                        .circle 
+                        {
+                            border:3.1px solid $linesButtonCircles;
+                            height:106px;
+                            width:106px;
+                            img 
+                            {
+                                height:auto;
+                                width:35px;
+                            }
+                        }
+                        .info 
+                        {
+                            .organicText 
+                            {
+                                font-size:27px;
+                                margin:0 0 0 18px;
+                            }
+                        }
+                    }
+                    .topOrganicRight 
+                    {
+                        .organicContainer 
+                        {
+                            .circle 
+                            {
+                                border:3.1px solid $linesButtonCircles;
+                                height:106px;
+                                right:18px;
+                                width:106px;
+                                img 
+                                {
+                                    height:auto;
+                                    width:35px;
+                                }
+                            }
+                            .info 
+                            {
+                                .organicText 
+                                {
+                                    font-size:27px;
+                                    margin:0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3001px) and (max-width:3750px)
+{
+    header 
+    {
+        .rightColumn 
+        {
+            .infoContainer 
+            {
+                margin:150px 0 231px 11%;
+                .backArea 
+                {
+                    
+                    a 
+                    {
+                        bottom:9.6px;
+                        margin:0 27px 0 0;
+                        img 
+                        {
+                            height:auto;
+                            width:33px;
+                        }
+                    }
+                }
+                .bottle 
+                {
+                    margin:9px 0 0 0;
+                }
+                button 
+                {
+                    margin:128px 0 0 0;
+                    padding:27px 0 27px 0;
+                }
+                .line
+                {
+                    height:2px;
+                }
+                .lineBottom 
+                {
+                    margin:120px 0 0 0;
+                }
+                .lineTop 
+                {
+                    margin:63px 0 0 0;
+                }
+                .loremIpsum 
+                {
+                    letter-spacing:2.43px;
+                    margin:70px 0 70px 0;
+                }
+                .middleSizeText 
+                {
+                    font-size:33px;
+                }
+                .organicInfo 
+                {
+                    margin:85px 0 0 0;
+                    .bottomOrganic 
+                    {
+                        margin:90px 0 0 0;
+                        .circle 
+                        {
+                            border:3.8px solid $linesButtonCircles;
+                            height:132px;
+                            width:132px;
+                            img 
+                            {
+                                height:auto;
+                                width:43px;
+                            }
+                        }
+                        .info 
+                        {
+                            .organicText 
+                            {
+                                font-size:33px;
+                                margin:0 0 0 22px;
+                            }
+                        }
+                    }
+                    .bottomOrganicRight 
+                    {
+                        margin:90px 0 0 0;
+                        .organicContainer 
+                        {
+                            .circle 
+                            {
+                                border:3.8px solid $linesButtonCircles;
+                                height:132px;
+                                right:22px;
+                                width:132px;
+                                img 
+                                {
+                                    height:auto;
+                                    width:43px;
+                                }
+                            }
+                            .info 
+                            {
+                                .organicText 
+                                {
+                                    font-size:33px;
+                                }
+                            }
+                        }
+                    }
+                    .topOrganic 
+                    {
+                        .circle 
+                        {
+                            border:3.8px solid $linesButtonCircles;
+                            height:132px;
+                            width:132px;
+                            img 
+                            {
+                                height:auto;
+                                width:43px;
+                            }
+                        }
+                        .info 
+                        {
+                            .organicText 
+                            {
+                                font-size:33px;
+                                margin:0 0 0 22px;
+                            }
+                        }
+                    }
+                    .topOrganicRight 
+                    {
+                        .organicContainer 
+                        {
+                            .circle 
+                            {
+                                border:3.8px solid $linesButtonCircles;
+                                height:132px;
+                                right:22px;
+                                width:132px;
+                                img 
+                                {
+                                    height:auto;
+                                    width:43px;
+                                }
+                            }
+                            .info 
+                            {
+                                .organicText 
+                                {
+                                    font-size:33px;
+                                    margin:0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width:3751px)
+{
+    header 
+    {
+        .rightColumn 
+        {
+            .infoContainer 
+            {
+                margin:187px 0 289px 11%;
+                .backArea 
+                {
+                    
+                    a 
+                    {
+                        bottom:12px;
+                        margin:0 33px 0 0;
+                        img 
+                        {
+                            height:auto;
+                            width:41px;
+                        }
+                    }
+                }
+                .bottle 
+                {
+                    margin:11.2px 0 0 0;
+                }
+                button 
+                {
+                    margin:160px 0 0 0;
+                    padding:33px 0 33px 0;
+                }
+                .line
+                {
+                    height:2px;
+                }
+                .lineBottom 
+                {
+                    margin:150px 0 0 0;
+                }
+                .lineTop 
+                {
+                    margin:78px 0 0 0;
+                }
+                .loremIpsum 
+                {
+                    letter-spacing:3.04px;
+                    margin:87px 0 87px 0;
+                }
+                .middleSizeText 
+                {
+                    font-size:41px;
+                }
+                .organicInfo 
+                {
+                    margin:106px 0 0 0;
+                    .bottomOrganic 
+                    {
+                        margin:112px 0 0 0;
+                        .circle 
+                        {
+                            border:4.7px solid $linesButtonCircles;
+                            height:165px;
+                            width:165px;
+                            img 
+                            {
+                                height:auto;
+                                width:53px;
+                            }
+                        }
+                        .info 
+                        {
+                            .organicText 
+                            {
+                                font-size:41px;
+                                margin:0 0 0 27px;
+                            }
+                        }
+                    }
+                    .bottomOrganicRight 
+                    {
+                        margin:112px 0 0 0;
+                        .organicContainer 
+                        {
+                            .circle 
+                            {
+                                border:4.7px solid $linesButtonCircles;
+                                height:165px;
+                                right:27px;
+                                width:165px;
+                                img 
+                                {
+                                    height:auto;
+                                    width:53px;
+                                }
+                            }
+                            .info 
+                            {
+                                .organicText 
+                                {
+                                    font-size:41px;
+                                }
+                            }
+                        }
+                    }
+                    .topOrganic 
+                    {
+                        .circle 
+                        {
+                            border:4.7px solid $linesButtonCircles;
+                            height:165px;
+                            width:165px;
+                            img 
+                            {
+                                height:auto;
+                                width:53px;
+                            }
+                        }
+                        .info 
+                        {
+                            .organicText 
+                            {
+                                font-size:41px;
+                                margin:0 0 0 27px;
+                            }
+                        }
+                    }
+                    .topOrganicRight 
+                    {
+                        .organicContainer 
+                        {
+                            .circle 
+                            {
+                                border:4.7px solid $linesButtonCircles;
+                                height:165px;
+                                right:27px;
+                                width:165px;
+                                img 
+                                {
+                                    height:auto;
+                                    width:53px;
+                                }
+                            }
+                            .info 
+                            {
+                                .organicText 
+                                {
+                                    font-size:41px;
+                                    margin:0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
